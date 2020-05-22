@@ -7,7 +7,7 @@ using MLDatasets
 using Zygote
 
 @with_kw mutable struct Args
-    η::Float32 = 3f-4      # learning rate
+    η::Float32 = 3f-3      # learning rate
     batchsize::Int = 1024   # batch size
     epochs::Int = 10        # number of epochs
     device::Function = cpu  # set as gpu, if gpu available

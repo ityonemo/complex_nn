@@ -6,7 +6,7 @@ using Parameters: @with_kw
 using MLDatasets
 
 @with_kw mutable struct Args
-    η::Float64 = 3e-4       # learning rate
+    η::Float64 = 3e-3       # learning rate
     batchsize::Int = 1024   # batch size
     epochs::Int = 10        # number of epochs
     device::Function = gpu  # set as gpu, if gpu available
